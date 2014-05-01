@@ -32,6 +32,12 @@ gem 'haml'
 # gem 'http_accept_language'
 # gem 'resque', require: 'resque/server' # Resque web interface
 
+# Facebook API
+gem 'fb_graph'
+
+gem "rails_admin"
+gem "breadcrumbs_on_rails"
+
 # Assets
 gem 'autoprefixer-rails'
 gem 'coffee-rails', '~> 4.0.0'
@@ -40,6 +46,7 @@ gem 'i18n-js'
 gem 'jquery-rails'
 gem 'jquery-turbolinks'
 gem 'sass-rails', '~> 4.0.3'
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'turbolinks'
 gem 'twbs_sass_rails'
 # twitter bootstrap css & javascript toolkit
@@ -56,6 +63,7 @@ group :development, :test do
   gem 'pry'
   gem 'pry-byebug'
   gem 'pry-rails'
+  gem 'quiet_assets'
 end
 
 group :development do
@@ -66,6 +74,7 @@ group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'rename'
+  gem "awesome_print"
 end
 
 group :test do
