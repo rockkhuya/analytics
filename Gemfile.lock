@@ -106,6 +106,9 @@ GEM
       railties (>= 3.1.0)
       turbolinks
     json (1.8.1)
+    kaminari (0.15.1)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
     launchy (2.4.2)
       addressable (~> 2.3)
     mail (2.5.4)
@@ -163,6 +166,8 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.3.1)
+    rename (1.0.2)
+      rails (>= 3.0.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rspec (2.14.1)
@@ -261,6 +266,7 @@ DEPENDENCIES
   i18n-js
   jquery-rails
   jquery-turbolinks
+  kaminari
   meta_request
   newrelic_rpm
   pg
@@ -271,6 +277,7 @@ DEPENDENCIES
   rack-timeout
   rails (= 4.1.0)
   rails_12factor
+  rename
   rspec
   rspec-rails
   sass-rails (~> 4.0.3)
