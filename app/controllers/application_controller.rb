@@ -5,6 +5,8 @@ class ApplicationController < ActionController::Base
 
   rescue_from FbGraph::Exception, :with => :fb_graph_exception
 
+  before_action :authenticate_admin!
+
   def fb_graph_exception(e)
     flash[:error] = {
       :title   => e.class,

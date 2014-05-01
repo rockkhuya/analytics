@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :admins
   # Canvas App
   resource :canvas, :only => [:show, :create]
   resource :credit, :only => :create

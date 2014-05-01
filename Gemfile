@@ -36,6 +36,9 @@ gem 'haml'
 gem 'fb_graph'
 
 gem "rails_admin"
+gem 'devise'
+gem 'cancancan'
+gem 'rolify'
 gem "breadcrumbs_on_rails"
 
 # Assets
