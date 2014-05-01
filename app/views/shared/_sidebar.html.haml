@@ -1,0 +1,12 @@
+.avatar
+  %profile-pic{"facebook-logo" => "true", size: "normal", uid: current_user.try(:identifier)}
+
+- if authenticated?
+  %p= link_to "Logout", facebook_path, :method => :delete
+- else
+  %dl
+    %dt JavaScript SDK
+    %dd
+      %login-button{length: "long", onlogin: "location.href = '#{facebook_path}'", scope: Facebook.config[:scope]}
+    %dt Normal OAuth flow
+    %dd= link_to "Start", new_facebook_path

@@ -13,5 +13,5 @@
  *= require_self
  *= stub twbs-variables
  *= require twbs
- *
+ *= require flatly
  */
