@@ -22,6 +22,7 @@ gem 'kaminari'
 # gem 'airbrake'
 gem 'newrelic_rpm'
 
+gem 'therubyracer'
 # Security
 # gem 'secure_headers'
 
@@ -41,6 +42,10 @@ gem 'jquery-turbolinks'
 gem 'sass-rails', '~> 4.0.3'
 gem 'turbolinks'
 gem 'twbs_sass_rails'
+# twitter bootstrap css & javascript toolkit
+gem 'twitter-bootswatch-rails', '~> 3.1.1'
+# twitter bootstrap helpers gem, e.g., alerts etc...
+gem 'twitter-bootswatch-rails-helpers'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
