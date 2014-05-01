@@ -16,7 +16,7 @@ gem 'puma'
 gem 'pg'
 
 # Pagination
-# gem 'kaminari'
+gem 'kaminari'
 
 # App monitoring
 # gem 'airbrake'
@@ -60,6 +60,7 @@ group :development do
   gem 'meta_request'
   gem 'spring'
   gem 'spring-commands-rspec'
+  gem 'rename'
 end
 
 group :test do
