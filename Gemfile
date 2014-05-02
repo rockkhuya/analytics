@@ -30,7 +30,6 @@ gem 'jquery-turbolinks'
 gem 'sass-rails', '~> 4.0.3'
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'turbolinks'
-gem 'twbs_sass_rails'
 gem 'twitter-bootswatch-rails', '~> 3.1.1'
 gem 'twitter-bootswatch-rails-helpers'
 gem 'uglifier', '>= 1.3.0'
