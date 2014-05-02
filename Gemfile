@@ -5,32 +5,12 @@ gem 'rails', '4.1.0'
 
 # Servers
 gem 'puma'
-
-# Multi-environment configuration
-# gem 'figaro'
-
-# API
-# gem 'rabl'
-
-# ORM
 gem 'pg'
-
-# Pagination
-gem 'kaminari'
-
-# App monitoring
-# gem 'airbrake'
 gem 'newrelic_rpm'
-
 gem 'therubyracer'
-# Security
-# gem 'secure_headers'
 
-# Miscellanea
 # gem 'google-analytics-rails'
 gem 'haml'
-# gem 'http_accept_language'
-# gem 'resque', require: 'resque/server' # Resque web interface
 
 # Facebook API
 gem 'fb_graph'
@@ -52,11 +32,12 @@ gem 'sass-rails', '~> 4.0.3'
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'turbolinks'
 gem 'twbs_sass_rails'
-# twitter bootstrap css & javascript toolkit
 gem 'twitter-bootswatch-rails', '~> 3.1.1'
-# twitter bootstrap helpers gem, e.g., alerts etc...
 gem 'twitter-bootswatch-rails-helpers'
 gem 'uglifier', '>= 1.3.0'
+gem 'cocoon'
+gem 'simple_form'
+gem 'kaminari'
 
 group :development, :test do
   gem 'byebug'
