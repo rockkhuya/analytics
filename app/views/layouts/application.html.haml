@@ -22,7 +22,9 @@
   %body
     = render 'shared/navbar'
 
-    #main-container.container= yield
+    #main-container.container
+      = render 'shared/messages'
+      = yield
 
     = render 'shared/sidebar'
     = render 'shared/footer'
