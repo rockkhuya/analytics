@@ -1,0 +1,155 @@
+defaults: &defaults
+  contact:
+    facebook:
+      name: "Arsenal FC in Viet Nam"
+      link: https://www.facebook.com/Arsenal.FC.Vietnam
+    web:
+      name: "Gooners.vn"
+      link: "http://gooners.vn"
+  clubs: ["arsenal", "ars", "gunner", "gunners", "gooner", "gooners", "pháo thủ", "thần công", "bắc london", "đỏ trắng"]
+  keywords: ["wenger", "arsene", "henry", "titi", "bergkamp", "pires", "vieira", "cesc", "fabregas"]
+  players:
+    "no.1":
+      name: Szczesny
+      fullname: "Wojciech Szczesny"
+      nickname:
+      facebook:
+    "no.13":
+      name: Ospina
+      fullname: "David Ospina"
+      nickname:
+      facebook:
+    "no.2":
+      name: Debuchy
+      fullname: "Mathieu Debuchy"
+      nickname:
+      facebook:
+    "no.3":
+      name: Gibbs
+      fullname: "Kieran Gibbs"
+      nickname:
+      facebook:
+    "no.4":
+      name: Mertesacker
+      fullname: "Per Mertesacker"
+      nickname: ["per", "m4", "bfg"]
+      facebook:
+    "no.6":
+      name: Koscielny
+      fullname: "Laurent Koscielny"
+      nickname: ["boss", "bosscielny", "k6"]
+      facebook:
+    "no.18":
+      name: Monreal
+      fullname: "Nacho Monreal"
+      nickname:
+      facebook:
+    "no.21":
+      name: Chambers
+      fullname: "Calum Chambers"
+      nickname:
+      facebook:
+    "no.7":
+      name: Rosicky
+      fullname: "Tomas Rosicky"
+      nickname: ["r7", "mozart", "tiểu mozart"]
+      facebook:
+    "no.8":
+      name: Arteta
+      fullname: "Mikel Arteta"
+      nickname: ["a8"]
+      facebook:
+    "no.10":
+      name: Wilshere
+      fullname: "Jack Wilshere"
+      nickname: ["jack", "w10"]
+      facebook:
+    "no.11":
+      name: Ozil
+      fullname: "Mesut Ozil"
+      nickname: ["mesut", "o10"]
+      facebook:
+    "no.16":
+      name: Ramsey
+      fullname: "Aaron Ramsey"
+      nickname: ["aaron", "r16"]
+      facebook:
+    "no.19":
+      name: Cazorla
+      fullname: "Santi Cazorla"
+      nickname: ["santi", "c19"]
+      facebook:
+    "no.20":
+      name: Flamini
+      fullname: "Mathieu Flamini"
+      nickname:
+      facebook:
+    "no.24":
+      name: Diaby
+      fullname: "Abou Diaby"
+      nickname:
+      facebook:
+    "no.34":
+      name: Coquelin
+      fullname: "Fancis Coquelin"
+      nickname:
+      facebook:
+    "no.35":
+      name: Zelalem
+      fullname: "Gedion Zelalem"
+      nickname:
+      facebook:
+    "no.9":
+      name: Podolski
+      fullname: "Lukas Podolski"
+      nickname: ["lukas", "podi", "p9"]
+      facebook:
+    "no.12":
+      name: Giroud
+      fullname: "Olivier Giroud"
+      nickname: ["g12"]
+      facebook:
+    "no.14":
+      name: Walcott
+      fullname: "Theo Walcott"
+      nickname: ["theo", "w14"]
+      facebook:
+    "no.15":
+      name: "Oxlade-Chamberlain"
+      fullname: "Alex Oxlade-Chamberlain"
+      nickname: ["ox", "c15"]
+      facebook:
+    "no.17":
+      name: Sanchez
+      fullname: "Alexis Sanchez"
+      nickname: ["alexis", "s17"]
+      facebook:
+    "no.22":
+      name: Sanogo
+      fullname: "Yaya Sanogo"
+      nickname: ["sanogoal", "yaya", "s22"]
+      facebook:
+    "no.27":
+      name: Gnabry
+      fullname: "Serge Gnabry"
+      nickname: ["serge", "g27"]
+      facebook:
+    "no.28":
+      name: Campbell
+      fullname: "Joel Campbell"
+      nickname: ["joel", "c28"]
+      facebook:
+    "no.31":
+      name: Miyaichi
+      fullname: "Ryo Miyaichi"
+      nickname:
+      facebook:
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

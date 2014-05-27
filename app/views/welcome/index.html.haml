@@ -1,17 +1,24 @@
-- title t('hello')
-%h1
-  Rails Starter App
-  %small 6.0.3
-%ul.list-inline.lead
-  %li
-    Ruby
-    %small.text-muted 2.1.1
-  %li
-    Rails
-    %small.text-muted 4.1.0
-  %li
-    Bootstrap for Sass
-    %small.text-muted 3.1.1
-  %li
-    Font Awesome
-    %small.text-muted 4.0.3
+- title "Gooner Analytics | Gooners.vn - Hội cổ động viên Arsenal tại Việt Nam"
+%h1.text-center
+  Gooner Analytics
+  %small Cùng tìm chỉ số gooner của bạn.
+
+- unless authenticated?
+  %h2 Xin chào bạn, đầu tiên bạn cần đăng nhập để tiếp tục
+  = link_to "Đăng nhập", new_facebook_path, class: "btn btn-primary"
+- else
+  %h3
+    Xin chào
+    = @me.name
+
+  - unless @me.like?(@page)
+    %p
+      Bạn cần like page
+      = link_to "Arsenal FC in Viet Nam", "https://www.facebook.com/Arsenal.FC.Vietnam"
+      để tiếp tục
+  - else
+    %p
+      Thay mặt page
+      = link_to "Arsenal FC in Viet Nam", "https://www.facebook.com/Arsenal.FC.Vietnam"
+      mình xin cảm ơn bạn đã luôn ủng hộ page trong thời gian qua. Chúng mình sẽ cố gắng cống hiến nhiều hơn nữa cho cộng đồng gooners Việt Nam.
+    = link_to "Phân tích", analytics_welcome_path, class: "btn btn-primary"

@@ -8,6 +8,9 @@ gem 'pg'
 gem 'newrelic_rpm'
 gem 'therubyracer'
 
+gem 'rmagick'
+gem 'settingslogic'
+
 # gem 'google-analytics-rails'
 gem 'haml'
 
