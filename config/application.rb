@@ -21,7 +21,8 @@ module Starterapp
     # config.i18n.default_locale = :de
     config.autoload_paths += %W(#{config.root}/lib)
 
-    config.assets.precompile += %w(flatly.js flatly.css)
+    config.assets.initialize_on_precompile = false
+    # config.assets.precompile += %w(flatly.js flatly.css)
     config.secret_token = '2f9b48d028a423b32901a3a560237ffa9141f57630e803daf98d161e96273e38d4f4b7656993e3d15a05db02b5e1db1909e5d2cd9090023a38b54175d00be921'
 
     config.generators do |g|
